@@ -27,6 +27,9 @@
 /* main style  */
 header{
   background-color: #FFF8F3;
+  background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+  background-repeat: no-repeat;
+  background-position: top left , bottom right;
   padding-top: 50px;
 }
 
@@ -55,4 +58,41 @@ nav {
   text-decoration: none;
   color: #474747;
   font-size: 20px;
+}
+
+#banner {
+  margin: 46px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 585px;
+}
+
+.banner-content h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.banner-content h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.banner-image img {
+  max-width: 585px;
+  vertical-align: middle;
 }
