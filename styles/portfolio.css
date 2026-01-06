@@ -192,3 +192,71 @@ nav {
   line-height: 28px;
   color: #757575;
 }
+
+#resume {
+  margin-top: 130px;
+}
+
+.resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 113px auto 0;
+  display: flex;
+  gap: 71px;
+}
+
+.resume-card {
+  width: 511px;
+}
+
+.education .section-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.education .card-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.education .card-info {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.education .card-text {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.experience .section-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.experience .card-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.experience .card-info {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.experience .card-text {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
