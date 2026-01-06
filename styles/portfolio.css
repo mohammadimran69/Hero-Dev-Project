@@ -1,22 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 /* shared style  */
-.font-open-sans{
+.font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 .btn {
-  background-color: #FD6E0A;
-  color: white;
-  font: 20px;
-  font-weight: 700;
+  background-color: #fd6e0a;
   border: none;
-  border-radius: 5px;
   padding: 18px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
   cursor: pointer;
 }
 
@@ -41,15 +41,20 @@
 }
 
 .color-orange {
-  color: #FD6E0A;
+  color: #fd6e0a;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* main style  */
-header{
-  background-color: #FFF8F3;
-  background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+header {
+  background-color: #fff8f3;
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
   background-repeat: no-repeat;
-  background-position: top left , bottom right;
+  background-position: 23px 38px, bottom right;
   padding-top: 50px;
 }
 
@@ -117,7 +122,6 @@ nav {
   vertical-align: middle;
 }
 
-
 #about {
   padding-top: 130px;
 }
@@ -127,7 +131,7 @@ nav {
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
   padding: 131px 112px;
 }
 
@@ -200,7 +204,7 @@ nav {
 .resume-container {
   width: 71%;
   max-width: 1140px;
-  margin: 113px auto 0;
+  margin: 113px auto 50px;
   display: flex;
   gap: 71px;
 }
@@ -259,4 +263,49 @@ nav {
   font-size: 16px;
   line-height: 28px;
   margin-bottom: 30px;
+}
+
+
+footer {
+  margin-top: 113px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+
+.footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container h2 {
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-container .social {
+  max-width: 562px;
+}
+
+.footer-container .social p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"], .footer-container form textarea{
+  width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575
 }
